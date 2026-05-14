@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Ribilanciamento ogni 14 giorni (daily data)
-
-# In[4]:
-
-
 import pandas as pd
 import numpy as np
 import datetime
@@ -25,7 +17,7 @@ ALL_TICKERS = ASSET_TICKERS + [CASH_TICKER]
 
 # Download dates
 data_start = "2007-01-01" # start date 
-data_end = datetime.date.today().strftime('%Y-%m-%d') # Scarica fino ad oggi
+data_end = datetime.date.today().strftime('%Y-%m-%d')
 # data_end = "2025-11-25" # end date editable as needed
 
 # --- 1. Download Data with yfinance ---
@@ -271,10 +263,6 @@ plt.ylabel('Balance (Log)')
 plt.legend()
 plt.grid(True, which="both", ls="--", alpha=0.5)
 plt.show()
-
-
-# In[2]:
-
 
 # --- 10. Detailed Output for a Specific Date ---
 
