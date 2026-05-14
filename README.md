@@ -1,6 +1,6 @@
 # GTAA — Momentum & SMA Strategy
 
-A backtest of a **Global Tactical Asset Allocation (GTAA)** strategy that combines a **momentum ranking** with a **trend-following SMA filter**, benchmarked against the S&P 500 and an equal-weight multi-asset portfolio.
+A backtest of a **Global Tactical Asset Allocation (GTAA)** strategy that combines a **momentum ranking** with a **trend-following SMA filter**, benchmarked against the S&P 500 and an equal-weight multi-asset portfolio. This implementation extends the Faber/Concretum GTAA framework by replacing equal-weight allocation with momentum-rank weighting.
 
 Built as part of a university project in quantitative finance.
 
@@ -56,3 +56,4 @@ Performance metrics computed for all four: **CAGR, Sharpe ratio, Sortino ratio, 
 ## References
 
 - Faber, M. T. (2007). *A Quantitative Approach to Tactical Asset Allocation.* The Journal of Wealth Management.
+- Gabriel, M., Pagani, A., & Zarattini, C. (2025). *Global Tactical Asset Allocation: Updated Results and Real-Market Implementation Using Python and IBKR*. QuanTips #1, Concretum Research.
