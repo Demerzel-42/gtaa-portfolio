@@ -47,15 +47,6 @@ The strategy is compared against:
 
 Performance metrics computed for all four: **CAGR, Sharpe ratio, Sortino ratio, Maximum Drawdown**.
 
-## Repository Contents
-
-```
-.
-├── GTAA_Momentum_SMA.py          # script version
-├── requirements.txt
-└── README.md
-```
-
 ## Notes & Limitations
 
 - Backtest assumes zero transaction costs, taxes, and slippage.
